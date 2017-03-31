@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/add_details"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@mipmap/ic_floatingadd"
+        android:orderInCategory="101"
+
+        android:title="Add Contact"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/edit_details"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="101"
+
+        android:title="Add Contact"
+        android:visible="true" />
+
+</menu>
